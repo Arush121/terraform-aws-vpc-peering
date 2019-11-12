@@ -6,6 +6,8 @@ provider "aws" {
   alias = "accepter"
 }
 
+variable "region"{}
+
 variable "enabled" {
   default     = true
   description = "Toggle the creation and destruction of all resources in this module"
